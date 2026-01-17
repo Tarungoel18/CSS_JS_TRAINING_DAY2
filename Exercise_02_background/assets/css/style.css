@@ -22,4 +22,8 @@ body {
     width: 500px;
     height: 500px;
     border: 1px solid black;
+    background-image: url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
 }
