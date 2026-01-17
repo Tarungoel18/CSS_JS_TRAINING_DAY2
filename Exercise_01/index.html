@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="/Exercise_01/assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- 
+      Task:
+      1. Create an HTML form containing:
+         - A text input for name.
+         - Radio buttons for gender.
+         - Checkboxes for interests.
+         - A textarea for additional comments.
+         - A submit button.
+      2. Style the form and its elements to enhance user experience.
+      3. Include hover and focus effects. (Hover effect for the submit and cancel buttons and focus effect for the text input and textarea)
+    -->
+    <div class="main-container">
+      <div>
+        <h1 class="main-heading">User Information Form</h1>
+      </div>
+      <form action="#" class="main-form">
+        <div class="form-element">
+          <label class="form-element-left" for="name">Name:</label>
+          <input class="form-element-right" placeholder="Enter your name" type="text" id="name" name="name" />
+        </div>
+        <div class="form-element">
+          <label class="form-element-left">Gender:</label>
+          <div class="form-element-right">
+            <div>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+            </div>
+            <div>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-element">
+          <label class="form-element-left">Interests:</label>
+          <div class="form-element-right">
+            <div>
+              <input
+                type="checkbox"
+                id="sports"
+                name="interests"
+                value="sports"
+              />
+              <label for="sports">Sports</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="music"
+                name="interests"
+                value="music"
+              />
+              <label for="music">Music</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="reading"
+                name="interests"
+                value="reading"
+              />
+              <label for="reading">Reading</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-element">
+          <label class="form-element-left" for="comments"
+            >Additional Comments:</label
+          >
+          <textarea
+            class="form-element-right textarea"
+            id="comments"
+            name="comments"
+            placeholder="Enter comments"
+          ></textarea>
+        </div>
+
+        <div class="form-element">
+          <input class="submit-btn" type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
