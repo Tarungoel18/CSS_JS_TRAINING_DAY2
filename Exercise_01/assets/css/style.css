@@ -85,10 +85,6 @@ input[type="text"] {
   resize: none;
 }
 
-input[type="text"]:focus {
-  outline: none;
-}
-
 @media (max-width: 768px) {
   .form-element {
     flex-direction: column;
